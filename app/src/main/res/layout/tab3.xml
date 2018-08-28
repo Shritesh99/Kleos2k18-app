@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#15161D">
-
-
+    tools:context=".activities.fragment3">
 
 </android.support.constraint.ConstraintLayout>

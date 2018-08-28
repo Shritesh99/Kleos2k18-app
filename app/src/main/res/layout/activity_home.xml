@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:lineSpacingExtra="8sp"
-                android:text="Questions"
+                android:text="@string/kleos"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimaryDark"
@@ -45,4 +45,48 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorPrimary" />
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tabLayout"
+        android:background="#000000"
+        app:tabMode="scrollable"
+        app:tabTextColor="#393939"
+        app:tabSelectedTextColor="#ffffff"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3" />
+
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5" />
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
 </LinearLayout>

@@ -6,8 +6,8 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
         android:theme="@style/NoActionBar">
         <activity android:name=".activities.HomeActivity">
             <intent-filter>
@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.Navigation_Drawer"></activity>
+        <activity android:name=".activities.Navigation_Drawer" />
+        <activity android:name=".activities.fragment1" />
+        <activity android:name=".activities.fragment2" />
+        <activity android:name=".activities.fragment3" />
+        <activity android:name=".activities.fragment4" />
+        <activity android:name=".activities.Fragment5"></activity>
     </application>
 
 </manifest>
