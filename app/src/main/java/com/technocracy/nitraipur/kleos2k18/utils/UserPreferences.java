@@ -4,14 +4,19 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
 
 import com.technocracy.nitraipur.kleos2k18.R;
 
 public class UserPreferences {
     private Activity activity;
+    private Fragment fragment;
 
     public UserPreferences(Activity activity){
         this.activity = activity;
+    }
+    public UserPreferences(Fragment fragment){
+        this.fragment=fragment;
     }
 
 
